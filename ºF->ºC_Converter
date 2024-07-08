@@ -1,0 +1,12 @@
+## A simple ºF to ºC converter in C-Programming (xCode)
+#include <stdio.h>
+
+int main(void)
+{
+    float fh, cent;
+    printf("Enter temperature in ºF: ");
+    scanf("%f\n", &fh);
+    cent = (fh - 32) * 5/9;
+    printf("\n Temperature in ºC is: %f\n", cent);
+    return 0;
+}
